@@ -1,8 +1,10 @@
+import me from  '../assets/me.png'
+
 const Candidate = () => {
   return (
     <div className="">
       <img
-        src="../me.png"
+        src={me}
         alt="me"
         className="ml-auto mr-auto w-3/12 h-94 rounded-full -mt-3"
       />
